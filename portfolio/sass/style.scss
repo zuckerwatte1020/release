@@ -50,17 +50,17 @@ $form-group-margin-bottom:       30px !default;
 }
 
 @mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
 }
 @mixin flex() {
 	display: -webkit-box;      
-  	display: -moz-box;         
-  	display: -ms-flexbox;      
-  	display: -webkit-flex;     
-  	display: flex;             
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;     
+	display: flex;             
 }
 @mixin flexwrap() {
 	flex-wrap: wrap;
@@ -159,17 +159,17 @@ h1, h2, h3, h4, h5, h6, figure {
 	margin: 0 0 20px 0;
 }
 ::-webkit-selection {
-  color: $brand-white;
-  background: $brand-primary;
+	color: $brand-white;
+	background: $brand-primary;
 }
 
 ::-moz-selection {
-  color: $brand-white;
-  background: $brand-primary;
+	color: $brand-white;
+	background: $brand-primary;
 }
 ::selection {
-  color: $brand-white;
-  background: $brand-primary;
+	color: $brand-white;
+	background: $brand-primary;
 }
 
 
@@ -612,7 +612,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .timeline-title {
-   margin-top: 0;
+	margin-top: 0;
 }
 .company{
 	display: block;
@@ -624,47 +624,47 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-body > p,
 .timeline-body > ul {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .timeline-body > p + p {
-  margin-top: 5px;
+	margin-top: 5px;
 }
 
 @media (max-width: $screen-md) {
 	ul.timeline:before {
-	  left: 90px;
+		left: 90px;
 	}
 
 	ul.timeline > li > .timeline-panel {
-	  width: calc(100% - 200px);
-	  width: -moz-calc(100% - 200px);
-	  width: -webkit-calc(100% - 200px);
-	  // width: 40%;
+		width: calc(100% - 200px);
+		width: -moz-calc(100% - 200px);
+		width: -webkit-calc(100% - 200px);
+		// width: 40%;
 	}
 
 	ul.timeline > li > .timeline-badge {
-	  left: 15px;
-	  margin-left: 0;
-	  top: 16px;
+		left: 15px;
+		margin-left: 0;
+		top: 16px;
 	}
 
 	ul.timeline > li > .timeline-panel {
-	  float: right;
+		float: right;
 	}
 
 	ul.timeline > li > .timeline-panel:before {
-	   border-left-width: 0;
-	   border-right-width: 15px;
-	   left: -15px;
-	   right: auto;
+		border-left-width: 0;
+		border-right-width: 15px;
+		left: -15px;
+		right: auto;
 	}
 
 	ul.timeline > li > .timeline-panel:after {
-	   border-left-width: 0;
-	   border-right-width: 14px;
-	   left: -14px;
-	   right: auto;
+		border-left-width: 0;
+		border-right-width: 14px;
+		left: -14px;
+		right: auto;
 	}
 }
 
@@ -718,26 +718,26 @@ h1, h2, h3, h4, h5, h6, figure {
 
 // CHART
 .chart {
-  	width: 160px;
-  	height: 160px;
-  	margin: 0 auto 40px auto;
-  	position: relative;
-  	text-align: center;
-  	span {
-  		strong {
-  			display: block;
-  		}
+	width: 160px;
+	height: 160px;
+	margin: 0 auto 40px auto;
+	position: relative;
+	text-align: center;
+	span {
+		strong {
+			display: block;
+		}
 		position: absolute;
 		top: 50%;
 		left: 0;
 		margin-top: -30px;
 		width: 100%;
-   }
-  	canvas{
-   	position: absolute;
-   	left: 0;
-   	top: 0;
-  	}
+	}
+	canvas{
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
 }
 
 // WORK
@@ -1241,11 +1241,11 @@ input[type="text"] {
 	height: 54px;
 	font-size: 18px;
 	font-weight: 300;
-  	&:active, &:focus {
-  		outline: none;
+	&:active, &:focus {
+		outline: none;
 		box-shadow: none;
 		border-color: $brand-primary;
-  }
+	}
 }
 
 .row-pb-md {
@@ -1256,12 +1256,12 @@ input[type="text"] {
 }
 
 .nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
 }
 .col-padding {
-   padding:6px !important;
-   margin: 0px !important;
+	padding:6px !important;
+	margin: 0px !important;
 }
 
 .fh5co-loader {
