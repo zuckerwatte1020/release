@@ -2,7 +2,8 @@
 /**
  * <title>タグを出力する
  */
-add_theme_support( 'title-tag' );
+add_theme_support( 'title-tag' );
+
 
 /**
  * タイトルタグの区切り文字をエン・ダッシュから縦線に変更する
@@ -29,3 +30,8 @@ function my_document_title_parts($title){
 * アイキャッチ画像を使用可能にする
 */
 add_theme_support( 'post-thumbnails' );
+
+/**
+ * カスタムメニュー昨日を使用可能にする
+ */
+add_theme_support( 'menus' );

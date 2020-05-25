@@ -4,13 +4,14 @@
     <div class="container">
         <div class="footer_inner">
             <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">わたしたちについて</a></li>
-                    <li><a href="#">アクセス</a></li>
-                    <li><a href="#">最新情報</a></li>
-                    <li><a href="#">お問い合わせ</a></li>
-                </ul>
+                <?php
+                $args = array(
+                    'menu' => 'global-navigation', // 管理画面で作成したメニューの名前
+                    'menu_class' => '', // メニューの構成するulタグのクラス名
+                    'container' => false, // <ul>タグを囲んでいる<div>タグを削除
+                );
+                wp_nav_menu($args);
+                ?>
             </nav>
             <div class="footer_copyright">
                 <small>&copy; BISTRO CALME All rights reserved.</small>
