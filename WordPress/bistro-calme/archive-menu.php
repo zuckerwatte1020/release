@@ -5,7 +5,10 @@
 <?php get_template_part('template-parts/breadcrumb'); ?>
 
 <?php
-$kinds = get_terms(array('taxonomy' => 'kind'));
+$kinds = get_terms(array(
+    'taxonomy' => 'kind',
+    'orderby' => 'id',
+    'order' => 'ASC'));
 if ( !empty($kinds) ):
 ?>
 <div class="pageNav">
@@ -19,7 +22,10 @@ if ( !empty($kinds) ):
 
 <main class="main">
     <?php
-    $kinds = get_terms(array('taxonomy' => 'kind'));
+    $kinds = get_terms(array(
+        'taxonomy' => 'kind',
+        'orderby' => 'id',
+        'order' => 'ASC'));
     if ( !empty($kinds) ):
     ?>
         <?php foreach ($kinds as $kind): ?>
